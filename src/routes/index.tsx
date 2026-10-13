@@ -1,5 +1,6 @@
+import { LandingPage } from "@/views/landingPage"
 import { createFileRoute } from "@tanstack/react-router"
 
 export const Route = createFileRoute("/")({
-  component: () => <h1 className="text-2xl font-semibold">shelf</h1>,
+  component: LandingPage,
 })
